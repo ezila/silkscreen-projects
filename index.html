@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<title>Sérigraphie - Chef d'&oelig;uvre</title>
 		<meta name="author" content="Alizée Jan" />
-		<link rel="shortcut icon" href="../favicon.ico">
+		<!-- <link rel="shortcut icon" href="../favicon.ico"> -->
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -15,10 +15,10 @@
 	<body>
 		<div class="container">
 			<!-- Top Navigation -->
-			<div class="codrops-top clearfix">
+			<!-- <div class="codrops-top clearfix">
 				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/ButtonComponentMorph/"><span>Previous Demo</span></a>
 				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=19069"><span>Back to the Codrops Article</span></a></span>
-			</div>
+			</div> -->
 			<header class="codrops-header">
 				<h1>Grid Loading and Hover Effect <span>Recreating <a href="http://design.samsung.com/">Samsung's</a> grid loading effect</span></h1>	
 				<nav class="codrops-demos">
@@ -43,7 +43,7 @@
 					<li><a href="#"><img src="img/9.jpg" alt="img09"><h3>Real Simple May 2014</h3></a></li>
 					<li><a href="#"><img src="img/10.jpg" alt="img10"><h3>Quarterly Musashino spring of 2014 issue</h3></a></li>
 					<li><a href="#"><img src="img/11.jpg" alt="img11"><h3>MAJESTY express vol. 01</h3></a></li>
-					<li><a id="image" href="#"><img src="img/12.jpg" alt="img12"><h3>Shitamachi Rocket</h3></a></li>
+					<li><a href="#"><img id="image" src="img/12.jpg" alt="img12"><h3>Shitamachi Rocket</h3></a></li>
 					<li><a href="#"><img src="img/13.jpg" alt="img13"><h3>Quarterly Musashino winter of 2013 issue</h3></a></li>
 				</ul>
 			</section>
@@ -64,12 +64,10 @@
 		<script src="js/classie.js"></script>
 		<script src="js/colorfinder-1.1.js"></script>
 		<!-- <script>
-			var rgb = new ColorFinder(favorHue).getMostProminentColor(document.getElementById('image'));
+			var rgb = new ColorFinder().getMostProminentColor(document.getElementById('image'));
 			document.getElementById("color").style.backgroundColor = 'rgb('+rgb.r+','+rgb.g+','+rgb.b+')';
-			function favorHue(r,g,b) {
-				return (Math.abs(r-g)*Math.abs(r-g) + Math.abs(r-b)*Math.abs(r-b) + Math.abs(g-b)*Math.abs(g-b))/65535*50+1;
-			}
 		</script> -->
+		
 		<script src="js/gridScrollFx.js"></script>
 		<script>
 			new GridScrollFx( document.getElementById( 'grid' ), {
