@@ -58,6 +58,70 @@
 	color: #fff;
 }
 
+/* light box */
+/* .img-box {
+  width: 100%;
+  height: 100%;
+} */
+
+/* .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+} */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-y: hidden;
+}
+
+.img-lightbox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 90vh;
+  z-index: 100;
+  -webkit-animation: fadeIn 0.5s forwards;
+          animation: fadeIn 0.5s forwards;
+}
+
+.close-btn {
+  position: fixed;
+  top: 5vh;
+  right: 5vh;
+  z-index: 110;
+  font-size: 24px;
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* Anchor and image */
 .grid li > a,
 .grid li img {

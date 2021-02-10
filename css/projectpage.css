@@ -24,93 +24,11 @@ a:hover, a:focus {
 	color: #2E3444;
 }
 
-.codrops-header {
-	margin: 0 auto;
-	padding: 2em;
-	text-align: center;
-}
-
-.codrops-header h1 {
-	margin: 0;
-	font-size: 2.5em;
-	font-weight: 900;
-}
-
-.codrops-header h1 span {
-	display: block;
-	padding: 0.2em 0 0.6em 0.1em;
-	font-size: 0.6em;
-	font-weight: 300;
-}
-
-/* Demo links */
-.codrops-demos {
-	padding-top: 50px;
-}
-
-.codrops-demos a {
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin: 15px;
-	padding: 5px 2px;
-	font-weight: 900;
-}
-
-.codrops-demos a.current-demo {
-	color: #2E3444;
-}
-
-/* To Navigation Style */
-.codrops-top {
-	width: 100%;
-	text-transform: uppercase;
-	font-weight: 800;
-	font-style: normal;
-	font-size: 0.69em;
-	line-height: 2.2;
-}
-
-.codrops-top a {
-	display: inline-block;
-	padding: 0 1em;
-	text-decoration: none;
-	letter-spacing: 1px;
-}
-
-.codrops-top span.right {
-	float: right;
-}
-
-.codrops-top span.right a {
-	display: block;
-	float: left;
-}
-
-.codrops-icon:before {
-	margin: 0 4px;
-	text-transform: none;
-	font-weight: normal;
-	font-style: normal;
-	font-variant: normal;
-	font-family: 'codropsicons';
-	line-height: 1;
-	speak: none;
-	-webkit-font-smoothing: antialiased;
-}
-
-.codrops-icon-drop:before {
-	content: "\e001";
-}
-
-.codrops-icon-prev:before {
-	content: "\e004";
-}
-
-section {
+/* section {
 	padding: 1em;
 	text-align: center;
-}
-
+} */
+/* 
 .related {
 	padding: 15em 0 3em;
 	clear: both;
@@ -149,12 +67,4 @@ section {
 	padding: 0.5em 0 0.3em;
 	max-width: 300px;
 	text-align: left;
-}
-
-@media screen and (max-width: 25em) {
-
-	.codrops-icon span {
-		display: none;
-	}
-
-}
+} */
