@@ -385,7 +385,8 @@ a:focus {
 
 @media screen and (max-width: 60em) {
 	.message {
-		display: block;
+		display: flex;
+    margin-bottom: 1em;
 	}
 	.frame {
 		display: block;
@@ -443,6 +444,16 @@ a:focus {
 
 	.grid__item--name {
 		grid-row: 1 / -1 !important;
+		font-size: 2em;
+		line-height: 1em;
+		margin-bottom: 3em;
+	}
+
+	.grid__item--link {
+		margin-top: 4.5em;
+		grid-column: 1 / -1 !important;
+		color: var(--link-text-hover);
+		background-color: var(--grid-nav-bg-hover);
 	}
 
 	.grid .grid__item--title {
