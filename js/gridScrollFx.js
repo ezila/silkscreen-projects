@@ -80,7 +80,7 @@
 
 	function GridItem( el ) {
 		this.el = el;
-		this.anchor = el.querySelector( 'a' ) 
+		this.anchor = el.querySelector( 'span' ) 
 		this.image = el.querySelector( 'img' );
 		this.desc = el.querySelector( 'h3' );
 	}
